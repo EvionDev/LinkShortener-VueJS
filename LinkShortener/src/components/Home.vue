@@ -1,6 +1,6 @@
 <template>
   <div
-    class="max-h-[500px] max-w-[500px] rounded-lg border-8 border-white px-2 py-3"
+    class="max-h-[500px] max-w-[500px] rounded-lg border-8 border-white px-2 py-3 mx-2"
   >
     <h1 class="text-2xl">Link Shortener</h1>
     <p class="mt-1 text-lg">
@@ -10,7 +10,7 @@
       type="text"
       v-model="inputUrl"
       placeholder="Put in your link here..."
-      class="mt-5 w-full rounded-[20px] border-2 border-[#B4CDED] py-3 pl-3 pr-2 shadow-sm outline-none transition-colors focus:border-[#7ba0d0] md:pl-5"
+      class="mt-5 w-full rounded-[20px] border-2 border-[#B4CDED] py-3 pl-3 pr-2 text-black shadow-sm outline-none transition-colors focus:border-[#7ba0d0] md:pl-5"
     />
     <div
       class="mt-4 flex flex-col justify-between gap-x-2 gap-y-2 md:flex-row md:gap-y-0"

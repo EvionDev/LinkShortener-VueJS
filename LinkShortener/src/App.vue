@@ -10,8 +10,8 @@ import Home from "./components/Home.vue";
 
 <style>
 body {
-  background-color: #edeef6;
-  color: #0d1821;
+  background-color: #171819;
+  color: #fff;
   font-family: "Outfit", sans-serif;
   height: 100vh;
   width: 100vw;
